@@ -1,0 +1,46 @@
+#!/bin/tcsh
+
+
+hg id 
+echo $argv
+sleep 3
+set echo
+set yt_dest = $HOME/local-yt-2014-01-01
+source $yt_dest/bin/activate.csh
+set compile = 0
+if ( $#argv > 0 ) then
+    set compile = $1
+endif
+set suffix = ""
+if ( $#argv > 1 ) then
+    set suffix = $2
+endif
+
+if ( $compile >= 1 ) then
+    cd ../src/enzo
+    if ( $compile > 1 ) then
+    make clean
+    endif
+    make -j 8;
+    echo $status
+    if ( $status ) then
+        echo "Compile Failed"
+        exit 1
+    endif
+    cd -
+endif
+
+set name = "_E12"$suffix
+set loc = /scratch1/dcollins/TestRunner/cosmo
+set todo =  --suite=push
+#set todo =  --problematic=True
+#set todo = "$todo --answer-store "
+set todo = "$todo  --time-multiplier=2"
+set goldname = _gold_2015-09-30
+set logname = runner_log.`date +"%Y-%m-%d-%H-%M-%S"`
+
+echo test_runner.py --run-suffix=$name -o $loc $todo --local --local-dir=$loc   --answer-name=$goldname >& $logname
+test_runner.py --run-suffix=$name -o $loc $todo --local --local-dir=$loc   --answer-name=$goldname |& tee -a $logname
+
+
+#end

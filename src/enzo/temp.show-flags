@@ -1,0 +1,21 @@
+
+CPP = /usr/bin/cpp
+CC  = /home/dcollins4096/local-other-2014-01-01/bin/mpicc
+CXX = /home/dcollins4096/local-other-2014-01-01/bin/mpic++
+FC  = /usr/bin/gfortran
+F90 = /usr/bin/gfortran
+LD  = /home/dcollins4096/local-other-2014-01-01/bin/mpic++
+
+DEFINES = -DLINUX -DH5_USE_16_API   -D__max_subgrids=100000 -D__max_baryons=30 -D__max_cpu_per_node=8 -D__memory_pool_size=100000 -DINITS64 -DLARGE_INTS -DCONFIG_PINT_8 -DIO_32    -DUSE_MPI   -DCONFIG_PFLOAT_8 -DCONFIG_BFLOAT_8  -DUSE_HDF5_GROUPS      -DNEW_GRID_IO -DFAST_SIB      -DENZO_PERFORMANCE    -DSAB
+
+INCLUDES = -I/home/dcollins4096/local-yt-2019-10-15/yt-conda/include            -I.
+
+CPPFLAGS = -P -traditional 
+CFLAGS   = -pg -O2
+CXXFLAGS = -pg -O2
+FFLAGS   = -fno-second-underscore -ffixed-line-length-132 -pg -O2
+F90FLAGS = -fno-second-underscore -pg -O2
+LDFLAGS  = -pg -O2
+
+LIBS     = -L/home/dcollins4096/local-yt-2019-10-15/yt-conda/lib -lhdf5 -lz  -lgfortran  -L/home/dcollins4096/Enzo/grackle_3_py3/lib -lgrackle        
+

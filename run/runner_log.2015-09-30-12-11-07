@@ -1,0 +1,72 @@
+test_runner.py --run-suffix=_E28b_newteststests -o /scratch1/dcollins/TestRunner/dev --problematic=True --local --local-dir=/scratch1/dcollins/TestRunner/dev --answer-name=_gold_2015-09-30
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.024s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.607s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 2.161s
+
+OK
+......................................
+----------------------------------------------------------------------
+Ran 38 tests in 1.345s
+
+OK
+Getting current revision.
+
+Selecting with:
+     problematic = True
+
+MHDCTOrszagTangAMR
+ZeldovichPancake
+DrivenTurbulence3D
+AdiabaticExpansion
+Total: 4
+
+Relative error tolerance in comparison set to 3 (i.e. 1e-3).
+Not including bitwise tests.
+
+Preparing all tests.
+Preparing test: AdiabaticExpansion.
+Preparing test: ZeldovichPancake.
+Preparing test: DrivenTurbulence3D.
+Preparing test: MHDCTOrszagTangAMR.
+Running all simulations.
+Running simulation: 1 of 4.
+Running test simulation: Cosmology/AdiabaticExpansion.
+Simulation started on Wed Sep 30 12:11:08 2015 with maximum run time of 60 seconds.
+Simulation completed in 4.016299 seconds.
+Running simulation: 2 of 4.
+Running test simulation: Cosmology/ZeldovichPancake.
+Simulation started on Wed Sep 30 12:11:12 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.018063 seconds.
+Running simulation: 3 of 4.
+Running test simulation: DrivenTurbulence3D.
+Simulation started on Wed Sep 30 12:11:13 2015 with maximum run time of 900 seconds.
+Simulation completed in 173.205920 seconds.
+Running simulation: 4 of 4.
+Running test simulation: MHD/2D/MHDCTOrszagTangAMR.
+Simulation started on Wed Sep 30 12:14:06 2015 with maximum run time of 150 seconds.
+Simulation completed in 16.034312 seconds.
+Running all tests.
+Running test: 1 of 4.
+Running test: 2 of 4.
+Running test: 3 of 4.
+Running test: 4 of 4.
+Testing complete.
+Sims not finishing: 0
+Number of errors: 0
+Number of failures: 0
+Number of successes: 107
+
+
+Complete!
+Total time: 199.499704 seconds.
+See /scratch1/dcollins/TestRunner/dev/8d7c9b6d9d68+_E28b_newteststests/test_results.txt for a summary of all tests.

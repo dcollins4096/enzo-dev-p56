@@ -1,0 +1,3 @@
+CONFIG_PHOTON = no
+CONFIG_OPT = high
+CONFIG_GRACKLE = no

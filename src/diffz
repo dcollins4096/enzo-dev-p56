@@ -1,0 +1,9 @@
+Only in /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo: .Grid_TurbulenceSimulationInitialize.C.swp
+Only in /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo: .ReadFile.C.swp
+vimdiff  enzo/auto_show_compile_options.C /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/auto_show_compile_options.C
+vimdiff  enzo/auto_show_version.C /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/auto_show_version.C
+vimdiff  enzo/DebugTools.C /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/DebugTools.C
+vimdiff  enzo/DebugTools.h /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/DebugTools.h
+vimdiff  enzo/enzo.exe /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/enzo.exe
+vimdiff  enzo/InitializeNew.C /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/InitializeNew.C
+vimdiff  enzo/temp.show-version /home/dcollins4096/Enzo/dave_vs_enzo_hacking/src/enzo/temp.show-version

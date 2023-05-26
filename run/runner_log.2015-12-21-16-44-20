@@ -1,0 +1,887 @@
+test_runner.py --run-suffix=_E12 -o /scratch1/dcollins/TestRunner/cosmo --suite=quick --local --local-dir=/scratch1/dcollins/TestRunner/cosmo --answer-name=_gold_2015-09-30
+Getting current revision.
+quicksuite
+
+Selecting with:
+     quicksuite = True
+
+Toro-2-ShockTubeAMR
+Toro-6-ShockTube
+CosmoIonization_q5z10_sp
+Toro-3-ShockTubeAMR
+KelvinHelmholtz
+BrioWu-MHD-1D
+OneZoneFreefallTest
+ShockPool2D
+CosmoIonization_q05z10_sp
+WavePool
+Toro-3-ShockTube
+Toro-5-ShockTubeAMR
+KelvinHelmholtzAMR
+RHIonization1_enzochem
+AMRZeldovichPancake
+AdiabaticExpansion
+HDMHD2DCheckOddEvenCouplingOfRiemannSolver
+TurnerStoneEquil2_sp
+MHDZeldovichPancake
+CosmoIonization_q05z4_sp
+FreeExpansion
+CosmoIonization_q5z4_enzochem
+Toro-4-ShockTubeAMR
+CosmoIonization_q05z4_enzochem
+PressurelessCollapse
+GravityTestSphere
+NohProblem2D
+MHDCTOrszagTangAMR
+FreeExpansionAMR
+AMRShockPool2D
+MHD2DRotorTest
+ShockInABox
+SedovBlast-MHD-2D-Gardiner
+InteractingBlastWaves
+Toro-2-ShockTube
+Toro-1-ShockTubeAMR
+PhotonShadowing
+PhotonTest
+RHIonization2_enzochem
+ExtremeAdvectionTest
+Toro-5-ShockTube
+TestOrbit
+Toro-1-ShockTube
+TurnerStoneEquil1_sp
+Toro-7-ShockTube
+CosmoIonization_q05z10_enzochem
+CosmoIonization_q5z10_enzochem
+SodShockTube
+MHDCTOrszagTang
+ZeldovichPancake
+Toro-4-ShockTube
+GravityTest
+CosmoIonization_q5z4_sp
+Total: 53
+
+Relative error tolerance in comparison set to 3 (i.e. 1e-3).
+Not including bitwise tests.
+
+Preparing all tests.
+Preparing test: OneZoneFreefallTest.
+Preparing test: AMRZeldovichPancake.
+Preparing test: AdiabaticExpansion.
+Preparing test: MHDZeldovichPancake.
+Preparing test: ZeldovichPancake.
+Preparing test: GravityTest.
+Preparing test: GravityTestSphere.
+Preparing test: TestOrbit.
+Preparing test: FreeExpansion.
+Preparing test: InteractingBlastWaves.
+Preparing test: PressurelessCollapse.
+Preparing test: ShockInABox.
+Preparing test: SodShockTube.
+Preparing test: Toro-1-ShockTube.
+Preparing test: Toro-1-ShockTubeAMR.
+Preparing test: Toro-2-ShockTube.
+Preparing test: Toro-2-ShockTubeAMR.
+Preparing test: Toro-3-ShockTube.
+Preparing test: Toro-3-ShockTubeAMR.
+Preparing test: Toro-4-ShockTube.
+Preparing test: Toro-4-ShockTubeAMR.
+Preparing test: Toro-5-ShockTube.
+Preparing test: Toro-5-ShockTubeAMR.
+Preparing test: Toro-6-ShockTube.
+Preparing test: Toro-7-ShockTube.
+Preparing test: WavePool.
+Preparing test: AMRShockPool2D.
+Preparing test: FreeExpansionAMR.
+Preparing test: HDMHD2DCheckOddEvenCouplingOfRiemannSolver.
+Preparing test: KelvinHelmholtz.
+Preparing test: KelvinHelmholtzAMR.
+Preparing test: NohProblem2D.
+Preparing test: ShockPool2D.
+Preparing test: ExtremeAdvectionTest.
+Preparing test: BrioWu-MHD-1D.
+Preparing test: MHD2DRotorTest.
+Preparing test: MHDCTOrszagTang.
+Preparing test: MHDCTOrszagTangAMR.
+Preparing test: SedovBlast-MHD-2D-Gardiner.
+Preparing test: PhotonShadowing.
+Preparing test: PhotonTest.
+Preparing test: CosmoIonization_q05z10_enzochem.
+Preparing test: CosmoIonization_q05z4_enzochem.
+Preparing test: CosmoIonization_q5z10_enzochem.
+Preparing test: CosmoIonization_q5z4_enzochem.
+Preparing test: RHIonization1_enzochem.
+Preparing test: RHIonization2_enzochem.
+Preparing test: CosmoIonization_q05z10_sp.
+Preparing test: CosmoIonization_q05z4_sp.
+Preparing test: CosmoIonization_q5z10_sp.
+Preparing test: CosmoIonization_q5z4_sp.
+Preparing test: TurnerStoneEquil1_sp.
+Preparing test: TurnerStoneEquil2_sp.
+Running all simulations.
+Running simulation: 1 of 53.
+Running test simulation: Cooling/OneZoneFreefallTest.
+Simulation started on Mon Dec 21 16:44:21 2015 with maximum run time of 60 seconds.
+Simulation completed in 3.012563 seconds.
+Running simulation: 2 of 53.
+Running test simulation: Cosmology/AMRZeldovichPancake.
+Simulation started on Mon Dec 21 16:44:24 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011220 seconds.
+Running simulation: 3 of 53.
+Running test simulation: Cosmology/AdiabaticExpansion.
+Simulation started on Mon Dec 21 16:44:25 2015 with maximum run time of 60 seconds.
+Simulation completed in 5.016874 seconds.
+Running simulation: 4 of 53.
+Running test simulation: Cosmology/MHDZeldovichPancake.
+Simulation started on Mon Dec 21 16:44:30 2015 with maximum run time of 60 seconds.
+Simulation completed in 7.015564 seconds.
+Running simulation: 5 of 53.
+Running test simulation: Cosmology/ZeldovichPancake.
+Simulation started on Mon Dec 21 16:44:37 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011591 seconds.
+Running simulation: 6 of 53.
+Running test simulation: GravitySolver/GravityTest.
+Simulation started on Mon Dec 21 16:44:38 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010697 seconds.
+Running simulation: 7 of 53.
+Running test simulation: GravitySolver/GravityTestSphere.
+Simulation started on Mon Dec 21 16:44:39 2015 with maximum run time of 60 seconds.
+Simulation completed in 2.011524 seconds.
+Running simulation: 8 of 53.
+Running test simulation: GravitySolver/TestOrbit.
+Simulation started on Mon Dec 21 16:44:41 2015 with maximum run time of 60 seconds.
+Simulation completed in 24.033567 seconds.
+Running simulation: 9 of 53.
+Running test simulation: Hydro/Hydro-1D/FreeExpansion.
+Simulation started on Mon Dec 21 16:45:05 2015 with maximum run time of 60 seconds.
+Simulation completed in 3.011516 seconds.
+Running simulation: 10 of 53.
+Running test simulation: Hydro/Hydro-1D/InteractingBlastWaves.
+Simulation started on Mon Dec 21 16:45:08 2015 with maximum run time of 60 seconds.
+Simulation completed in 3.011655 seconds.
+Running simulation: 11 of 53.
+Running test simulation: Hydro/Hydro-1D/PressurelessCollapse.
+Simulation started on Mon Dec 21 16:45:11 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010209 seconds.
+Running simulation: 12 of 53.
+Running test simulation: Hydro/Hydro-1D/ShockInABox.
+Simulation started on Mon Dec 21 16:45:12 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010571 seconds.
+Running simulation: 13 of 53.
+Running test simulation: Hydro/Hydro-1D/SodShockTube.
+Simulation started on Mon Dec 21 16:45:13 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010999 seconds.
+Running simulation: 14 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-1-ShockTube.
+Simulation started on Mon Dec 21 16:45:14 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011780 seconds.
+Running simulation: 15 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-1-ShockTubeAMR.
+Simulation started on Mon Dec 21 16:45:15 2015 with maximum run time of 60 seconds.
+Simulation completed in 2.012053 seconds.
+Running simulation: 16 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-2-ShockTube.
+Simulation started on Mon Dec 21 16:45:17 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010820 seconds.
+Running simulation: 17 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-2-ShockTubeAMR.
+Simulation started on Mon Dec 21 16:45:18 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011123 seconds.
+Running simulation: 18 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-3-ShockTube.
+Simulation started on Mon Dec 21 16:45:19 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011330 seconds.
+Running simulation: 19 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-3-ShockTubeAMR.
+Simulation started on Mon Dec 21 16:45:20 2015 with maximum run time of 60 seconds.
+Simulation completed in 3.012296 seconds.
+Running simulation: 20 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-4-ShockTube.
+Simulation started on Mon Dec 21 16:45:23 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011421 seconds.
+Running simulation: 21 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-4-ShockTubeAMR.
+Simulation started on Mon Dec 21 16:45:24 2015 with maximum run time of 60 seconds.
+Simulation completed in 2.010654 seconds.
+Running simulation: 22 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-5-ShockTube.
+Simulation started on Mon Dec 21 16:45:26 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.012487 seconds.
+Running simulation: 23 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-5-ShockTubeAMR.
+Simulation started on Mon Dec 21 16:45:27 2015 with maximum run time of 60 seconds.
+Simulation completed in 2.011655 seconds.
+Running simulation: 24 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-6-ShockTube.
+Simulation started on Mon Dec 21 16:45:29 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010371 seconds.
+Running simulation: 25 of 53.
+Running test simulation: Hydro/Hydro-1D/Toro-7-ShockTube.
+Simulation started on Mon Dec 21 16:45:30 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.010533 seconds.
+Running simulation: 26 of 53.
+Running test simulation: Hydro/Hydro-1D/WavePool.
+Simulation started on Mon Dec 21 16:45:31 2015 with maximum run time of 60 seconds.
+Simulation completed in 1.011350 seconds.
+Running simulation: 27 of 53.
+Running test simulation: Hydro/Hydro-2D/AMRShockPool2D.
+Simulation started on Mon Dec 21 16:45:32 2015 with maximum run time of 120 seconds.
+Simulation completed in 46.059650 seconds.
+Running simulation: 28 of 53.
+Running test simulation: Hydro/Hydro-2D/FreeExpansionAMR.
+Simulation started on Mon Dec 21 16:46:18 2015 with maximum run time of 120 seconds.
+Simulation completed in 28.037493 seconds.
+Running simulation: 29 of 53.
+Running test simulation: Hydro/Hydro-2D/HDMHD2DCheckOddEvenCouplingOfRiemannSolver.
+Simulation started on Mon Dec 21 16:46:46 2015 with maximum run time of 60 seconds.
+Simulation completed in 12.022488 seconds.
+Running simulation: 30 of 53.
+Running test simulation: Hydro/Hydro-2D/KelvinHelmholtz.
+Simulation started on Mon Dec 21 16:46:58 2015 with maximum run time of 120 seconds.
+Simulation completed in 7.016693 seconds.
+Running simulation: 31 of 53.
+Running test simulation: Hydro/Hydro-2D/KelvinHelmholtzAMR.
+Simulation started on Mon Dec 21 16:47:05 2015 with maximum run time of 120 seconds.
+Simulation completed in 45.055557 seconds.
+Running simulation: 32 of 53.
+Running test simulation: Hydro/Hydro-2D/NohProblem2D.
+Simulation started on Mon Dec 21 16:47:50 2015 with maximum run time of 60 seconds.
+Simulation completed in 13.021435 seconds.
+Running simulation: 33 of 53.
+Running test simulation: Hydro/Hydro-2D/ShockPool2D.
+Simulation started on Mon Dec 21 16:48:03 2015 with maximum run time of 60 seconds.
+Simulation completed in 21.030762 seconds.
+Running simulation: 34 of 53.
+Running test simulation: Hydro/Hydro-3D/ExtremeAdvectionTest.
+Simulation started on Mon Dec 21 16:48:24 2015 with maximum run time of 60 seconds.
+Simulation completed in 7.017404 seconds.
+Running simulation: 35 of 53.
+Running test simulation: MHD/1D/BrioWu-MHD-1D.
+Simulation started on Mon Dec 21 16:48:32 2015 with maximum run time of 60 seconds.
+Simulation completed in 3.012653 seconds.
+Running simulation: 36 of 53.
+Running test simulation: MHD/2D/MHD2DRotorTest.
+Simulation started on Mon Dec 21 16:48:35 2015 with maximum run time of 150 seconds.
+Simulation completed in 48.059469 seconds.
+Running simulation: 37 of 53.
+Running test simulation: MHD/2D/MHDCTOrszagTang.
+Simulation started on Mon Dec 21 16:49:23 2015 with maximum run time of 150 seconds.
+Simulation completed in 5.012786 seconds.
+Running simulation: 38 of 53.
+Running test simulation: MHD/2D/MHDCTOrszagTangAMR.
+Simulation started on Mon Dec 21 16:49:28 2015 with maximum run time of 150 seconds.
+Simulation completed in 21.030433 seconds.
+Running simulation: 39 of 53.
+Running test simulation: MHD/2D/SedovBlast-MHD-2D-Gardiner.
+Simulation started on Mon Dec 21 16:49:49 2015 with maximum run time of 300 seconds.
+Simulation completed in 48.058430 seconds.
+Running simulation: 40 of 53.
+Running test simulation: RadiationTransport/PhotonShadowing.
+Simulation started on Mon Dec 21 16:50:37 2015 with maximum run time of 180 seconds.
+Running simulation: 41 of 53.
+Running test simulation: RadiationTransport/PhotonTest.
+Simulation started on Mon Dec 21 16:50:38 2015 with maximum run time of 60 seconds.
+Simulation completed in 26.035791 seconds.
+Running simulation: 42 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q05z10_enzochem.
+Simulation started on Mon Dec 21 16:51:04 2015 with maximum run time of 60 seconds.
+Running simulation: 43 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q05z4_enzochem.
+Simulation started on Mon Dec 21 16:51:05 2015 with maximum ru.........................
+----------------------------------------------------------------------
+Ran 25 tests in 1.698s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.900s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.517s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.512s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.883s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.124s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 2.156s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 4 tests in 1.020s
+
+OK
+...............................
+----------------------------------------------------------------------
+Ran 31 tests in 2.208s
+
+OK
+................
+----------------------------------------------------------------------
+Ran 16 tests in 1.744s
+
+OK
+................
+----------------------------------------------------------------------
+Ran 16 tests in 1.122s
+
+OK
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 1.646s
+
+OK
+....................
+----------------------------------------------------------------------
+Ran 20 tests in 1.385s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 0.982s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.080s
+
+OK
+....................
+----------------------------------------------------------------------
+Ran 20 tests in 1.040s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.024s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 0.938s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.139s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.039s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.146s
+
+OK
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 0.985s
+
+OK
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 1.089s
+
+OK
+..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.925s
+
+OK
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.045s
+
+OK
+................
+----------------------------------------------------------------------
+Ran 16 tests in 1.104s
+
+OK
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 1.946s
+
+OK
+...............................
+----------------------------------------------------------------------
+Ran 31 tests in 6.778s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.563s
+
+OK
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 1.238s
+
+OK
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 1.298s
+
+OK
+.........................
+----------------------------------------------------------------------
+Ran 25 tests in 1.354s
+
+OK
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 1.409s
+
+OK
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.405s
+
+OK
+...............................
+----------------------------------------------------------------------
+Ran 31 tests in 1.513s
+
+OK
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 1.531s
+
+OK
+......................................
+----------------------------------------------------------------------
+Ran 38 tests in 1.917s
+
+OK
+......................................
+----------------------------------------------------------------------
+Ran 38 tests in 2.118s
+
+OK
+..................................
+----------------------------------------------------------------------
+Ran 34 tests in 1.691s
+
+OK
+E.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransport/PhotonShadowing/PhotonShadowing__test_photonshadowing.py", line 36, in test_photon_shadowing
+    pf = sim[-1]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransport/PhotonShadowing/PhotonShadowing__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.018s
+
+FAILED (errors=2)
+.................................
+----------------------------------------------------------------------
+Ran 33 tests in 2.301s
+
+OK
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q05z10_enzochem/CosmoIonization_q05z10_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.012s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q05z4_enzochem/CosmoIonization_q05z4_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q5z10_enzochem/CosmoIonization_q5z10_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q5z4_enzochem/CosmoIonization_q5z4_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.015s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/RHIonization1_enzochem/RHIonization1_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Enzochem/RHIonization2_enzochem/RHIonization2_enzochem__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/CosmoIonization_q05z10_sp/CosmoIonization_q05z10_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.019s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/CosmoIonization_q05z4_sp/CosmoIonization_q05z4_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/CosmoIonization_q5z10_sp/CosmoIonization_q5z10_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/CosmoIonization_q5z4_sp/CosmoIonization_q5z4_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/TurnerStoneEquil1_sp/TurnerStoneEquil1_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+.E.
+======================================================================
+ERROR: Failure: InvalidSimulationTimeSeries (Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dcollins4096/local-yt-2014-01-01/lib/python2.7/site-packages/nose-1.3.0-py2.7.egg/nose/loader.py", line 253, in generate
+    for test in g():
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/frontends/enzo/answer_testing_support.py", line 38, in fyielder
+    for t in func(*args, **kwargs):
+  File "/scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/RadiationTransportFLD/Grey_Split/TurnerStoneEquil2_sp/TurnerStoneEquil2_sp__test_standard.py", line 32, in test_standard
+    base_pf = sim[0]
+  File "/home/dcollins4096/local-yt-2014-01-01/src/yt-hg/yt/data_objects/time_series.py", line 121, in __getitem__
+    "Confirm you are running from the simulation source directory.")
+InvalidSimulationTimeSeries: Your TimeSeries is empty. 
+Confirm you are running from the simulation source directory.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+FAILED (errors=1)
+n time of 60 seconds.
+Running simulation: 44 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q5z10_enzochem.
+Simulation started on Mon Dec 21 16:51:06 2015 with maximum run time of 60 seconds.
+Running simulation: 45 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/CosmoIonization_q5z4_enzochem.
+Simulation started on Mon Dec 21 16:51:07 2015 with maximum run time of 60 seconds.
+Running simulation: 46 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/RHIonization1_enzochem.
+Simulation started on Mon Dec 21 16:51:08 2015 with maximum run time of 120 seconds.
+Running simulation: 47 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Enzochem/RHIonization2_enzochem.
+Simulation started on Mon Dec 21 16:51:09 2015 with maximum run time of 120 seconds.
+Running simulation: 48 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/CosmoIonization_q05z10_sp.
+Simulation started on Mon Dec 21 16:51:10 2015 with maximum run time of 60 seconds.
+Running simulation: 49 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/CosmoIonization_q05z4_sp.
+Simulation started on Mon Dec 21 16:51:11 2015 with maximum run time of 60 seconds.
+Running simulation: 50 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/CosmoIonization_q5z10_sp.
+Simulation started on Mon Dec 21 16:51:12 2015 with maximum run time of 60 seconds.
+Running simulation: 51 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/CosmoIonization_q5z4_sp.
+Simulation started on Mon Dec 21 16:51:13 2015 with maximum run time of 60 seconds.
+Running simulation: 52 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/TurnerStoneEquil1_sp.
+Simulation started on Mon Dec 21 16:51:14 2015 with maximum run time of 60 seconds.
+Running simulation: 53 of 53.
+Running test simulation: RadiationTransportFLD/Grey_Split/TurnerStoneEquil2_sp.
+Simulation started on Mon Dec 21 16:51:15 2015 with maximum run time of 60 seconds.
+Running all tests.
+Running test: 1 of 53.
+Running test: 2 of 53.
+Running test: 3 of 53.
+Running test: 4 of 53.
+Running test: 5 of 53.
+Running test: 6 of 53.
+Running test: 7 of 53.
+Running test: 8 of 53.
+Running test: 9 of 53.
+Running test: 10 of 53.
+Running test: 11 of 53.
+Running test: 12 of 53.
+Running test: 13 of 53.
+Running test: 14 of 53.
+Running test: 15 of 53.
+Running test: 16 of 53.
+Running test: 17 of 53.
+Running test: 18 of 53.
+Running test: 19 of 53.
+Running test: 20 of 53.
+Running test: 21 of 53.
+Running test: 22 of 53.
+Running test: 23 of 53.
+Running test: 24 of 53.
+Running test: 25 of 53.
+Running test: 26 of 53.
+Running test: 27 of 53.
+Running test: 28 of 53.
+Running test: 29 of 53.
+Running test: 30 of 53.
+Running test: 31 of 53.
+Running test: 32 of 53.
+Running test: 33 of 53.
+Running test: 34 of 53.
+Running test: 35 of 53.
+Running test: 36 of 53.
+Running test: 37 of 53.
+Running test: 38 of 53.
+Running test: 39 of 53.
+Running test: 40 of 53.
+Running test: 41 of 53.
+Running test: 42 of 53.
+Running test: 43 of 53.
+Running test: 44 of 53.
+Running test: 45 of 53.
+Running test: 46 of 53.
+Running test: 47 of 53.
+Running test: 48 of 53.
+Running test: 49 of 53.
+Running test: 50 of 53.
+Running test: 51 of 53.
+Running test: 52 of 53.
+Running test: 53 of 53.
+Testing complete.
+Sims not finishing: 13
+Number of errors: 14
+Number of failures: 0
+Number of successes: 941
+Simulations which did not finish in allocated time:
+(Try rerunning each/all with --time-multiplier=2)
+PhotonShadowing
+CosmoIonization_q05z10_enzochem
+CosmoIonization_q05z4_enzochem
+CosmoIonization_q5z10_enzochem
+CosmoIonization_q5z4_enzochem
+RHIonization1_enzochem
+RHIonization2_enzochem
+CosmoIonization_q05z10_sp
+CosmoIonization_q05z4_sp
+CosmoIonization_q5z10_sp
+CosmoIonization_q5z4_sp
+TurnerStoneEquil1_sp
+TurnerStoneEquil2_sp
+
+
+Complete!
+Total time: 475.813711 seconds.
+See /scratch1/dcollins/TestRunner/cosmo/eac22573ce3f_E12/test_results.txt for a summary of all tests.

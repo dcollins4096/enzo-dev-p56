@@ -1,0 +1,11 @@
+16K	./Wengen2-CollidingFlow
+140K	./SedovBlast-MHD-2D-Fryxell
+20K	./LoopAdvection_Dedner
+16K	./MHDCTOrszagTang
+20K	./LoopAdvection_CT
+8.0K	./MHDDednerOrszagTang
+64K	./SedovBlast-MHD-2D-Gardiner
+24K	./MHD2DRotorTest
+24K	./MHDCTOrszagTangAMR
+108K	./RayleighTaylor_CT_Suppressed
+448K	.

@@ -1,0 +1,146 @@
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/features.h, line 367): cannot find include file "sys/cdefs.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/sys/cdefs.h
+	not in ./sys/cdefs.h
+	not in /usr/include/sys/cdefs.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/features.h, line 391): cannot find include file "gnu/stubs.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/gnu/stubs.h
+	not in ./gnu/stubs.h
+	not in /usr/include/gnu/stubs.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdlib.h, line 32): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdlib.h, line 41): cannot find include file "bits/waitflags.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/waitflags.h
+	not in ./bits/waitflags.h
+	not in /usr/include/bits/waitflags.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdlib.h, line 42): cannot find include file "bits/waitstatus.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/waitstatus.h
+	not in ./bits/waitstatus.h
+	not in /usr/include/bits/waitstatus.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdlib.h, line 314): cannot find include file "sys/types.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/sys/types.h
+	not in ./sys/types.h
+	not in /usr/include/sys/types.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/alloca.h, line 24): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdlib.h, line 954): cannot find include file "bits/stdlib-float.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/stdlib-float.h
+	not in ./bits/stdlib-float.h
+	not in /usr/include/bits/stdlib-float.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdio.h, line 33): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdio.h, line 35): cannot find include file "bits/types.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/types.h
+	not in ./bits/types.h
+	not in /usr/include/bits/types.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/_G_config.h, line 9): cannot find include file "bits/types.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/types.h
+	not in ./bits/types.h
+	not in /usr/include/bits/types.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/_G_config.h, line 15): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/wchar.h, line 51): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/libio.h, line 49): cannot find include file "stdarg.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stdarg.h
+	not in ./stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/libio.h, line 56): cannot find include file "sys/cdefs.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/sys/cdefs.h
+	not in ./sys/cdefs.h
+	not in /usr/include/sys/cdefs.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdio.h, line 164): cannot find include file "bits/stdio_lim.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/stdio_lim.h
+	not in ./bits/stdio_lim.h
+	not in /usr/include/bits/stdio_lim.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/stdio.h, line 853): cannot find include file "bits/sys_errlist.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/sys_errlist.h
+	not in ./bits/sys_errlist.h
+	not in /usr/include/bits/sys_errlist.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 31): cannot find include file "bits/math-vector.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/math-vector.h
+	not in ./bits/math-vector.h
+	not in /usr/include/bits/math-vector.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 35): cannot find include file "bits/huge_val.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/huge_val.h
+	not in ./bits/huge_val.h
+	not in /usr/include/bits/huge_val.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 37): cannot find include file "bits/huge_valf.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/huge_valf.h
+	not in ./bits/huge_valf.h
+	not in /usr/include/bits/huge_valf.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 38): cannot find include file "bits/huge_vall.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/huge_vall.h
+	not in ./bits/huge_vall.h
+	not in /usr/include/bits/huge_vall.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 41): cannot find include file "bits/inf.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/inf.h
+	not in ./bits/inf.h
+	not in /usr/include/bits/inf.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 44): cannot find include file "bits/nan.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/nan.h
+	not in ./bits/nan.h
+	not in /usr/include/bits/nan.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 48): cannot find include file "bits/mathdef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/mathdef.h
+	not in ./bits/mathdef.h
+	not in /usr/include/bits/mathdef.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 83): cannot find include file "bits/mathcalls.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/mathcalls.h
+	not in ./bits/mathcalls.h
+	not in /usr/include/bits/mathcalls.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 104): cannot find include file "bits/mathcalls.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/mathcalls.h
+	not in ./bits/mathcalls.h
+	not in /usr/include/bits/mathcalls.h
+makedepend: warning:  AutomaticSubgridGeneration.C (reading /usr/include/math.h, line 151): cannot find include file "bits/mathcalls.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/mathcalls.h
+	not in ./bits/mathcalls.h
+	not in /usr/include/bits/mathcalls.h
+makedepend: warning:  CMB_EvaluatePowerSpectrum.C (reading /usr/include/string.h, line 32): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  XChunk_WriteField.C (reading /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/H5public.h, line 40): cannot find include file "sys/types.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/sys/types.h
+	not in ./sys/types.h
+	not in /usr/include/sys/types.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/limits.h, line 123): cannot find include file "limits.h"
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/limits.h, line 143): cannot find include file "bits/posix1_lim.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/posix1_lim.h
+	not in ./bits/posix1_lim.h
+	not in /usr/include/bits/posix1_lim.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/limits.h, line 147): cannot find include file "bits/posix2_lim.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/posix2_lim.h
+	not in ./bits/posix2_lim.h
+	not in /usr/include/bits/posix2_lim.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/stdint.h, line 26): cannot find include file "bits/wchar.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/wchar.h
+	not in ./bits/wchar.h
+	not in /usr/include/bits/wchar.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/stdint.h, line 27): cannot find include file "bits/wordsize.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/bits/wordsize.h
+	not in ./bits/wordsize.h
+	not in /usr/include/bits/wordsize.h
+makedepend: warning:  XChunk_WriteField.C (reading /usr/include/inttypes.h, line 37): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  XChunk_WriteField.C (reading /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/H5public.h, line 58): cannot find include file "stddef.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/stddef.h
+	not in ./stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  XChunk_WriteField.C (reading /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/H5Gpublic.h, line 30): cannot find include file "sys/types.h"
+	not in /home/dcollins4096/local-yt-2017-03-29/yt-conda/include/sys/types.h
+	not in ./sys/types.h
+	not in /usr/include/sys/types.h
+makedepend: warning:  cannot open "*.src"
