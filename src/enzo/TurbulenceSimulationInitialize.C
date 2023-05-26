@@ -243,8 +243,8 @@ int TurbulenceSimulationInitialize(FILE *fptr, FILE *Outfptr,
     ENZO_FAIL("Missing initial data.\n");
   }
   */
-  if (CellFlaggingMethod[0] != 3)
-      fprintf(stderr, "TurbulenceSimulation: check CellFlaggingMethod.\n");
+//  if (CellFlaggingMethod[0] != 3)
+//      fprintf(stderr, "TurbulenceSimulation: check CellFlaggingMethod.\n");
  
   /* If density(temperature, actually, c^2) is left unset, set it = 1. */
  

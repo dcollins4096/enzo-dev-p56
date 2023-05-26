@@ -308,6 +308,7 @@ int grid::ComputePressure(FLOAT time, float *pressure,
   /* To emulate the opacity limit in turbulent star formation 
      simulations */
   
+  /*
   float Gamma1 = Gamma;
   if ((ProblemType == 60 || ProblemType == 61) && SelfGravity == 1)
 
@@ -315,6 +316,7 @@ int grid::ComputePressure(FLOAT time, float *pressure,
       Gamma1 = min(Gamma + (log10(BaryonField[DensNum][i])-8.0)*0.3999/2.5, 1.4);
       pressure[i] *= (Gamma1 - 1.0)/(Gamma - 1.0);
     }
+    */
 
    /* If cosmic rays present, add pressure contribution */
    if( CRModel && IncludeCRs){

@@ -165,8 +165,9 @@ float grid::ComputeTimeStep()
 			     BaryonField[Vel3Num], &dtBaryons, &dtViscous);
  
 
+    /*
     if(HydroMethod == MHD_Li){
-      /* 1.5) Calculate minimum dt due to MHD: Maximum Fast MagnetoSonic Shock Speed */
+      // 1.5) Calculate minimum dt due to MHD: Maximum Fast MagnetoSonic Shock Speed
       
       //Cosmos nees this, for some reason.
       if(GridRank < 3 ){
@@ -190,6 +191,7 @@ float grid::ComputeTimeStep()
       dtMHD *= CourantSafetyNumber;
       dtMHD *= afloat;  
     }//if HydroMethod== MHD_Li
+    */
 
     /* Clean up */
  
@@ -263,7 +265,7 @@ float grid::ComputeTimeStep()
 
 
   // MHD
-  if (NumberOfBaryonFields > 0 && HydroMethod == MHD_RK) {
+  if (NumberOfBaryonFields > 0 && UseMHD) {
 
     int DensNum, GENum, TENum, Vel1Num, Vel2Num, Vel3Num, 
       B1Num, B2Num, B3Num, PhiNum;

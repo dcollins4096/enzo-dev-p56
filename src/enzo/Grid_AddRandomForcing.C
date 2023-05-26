@@ -35,7 +35,7 @@ int grid::AddRandomForcing(float * norm, float dtTopGrid)
   float levelNorm = (*norm)*dtFixed/dtTopGrid;
 
   // use original RandomForcing field
-  if (RandomForcing) { 
+  if (RandomForcing && !UseDrivingField) { 
 
     for (dim = 0; dim < GridRank; dim++)
         ForcingField[dim] = RandomForcingField[dim];
@@ -46,7 +46,7 @@ int grid::AddRandomForcing(float * norm, float dtTopGrid)
 
   // use StochasticForcing in combination with MHDCT
   // for RK2 based solvers, the forcing happens in the Grid_*SourceTerms.C
-  } else if (UseDrivingField && HydroMethod == MHD_Li) {
+  } else if (UseDrivingField) {
     int Drive1Num, Drive2Num, Drive3Num;
     if (this->IdentifyDrivingFields(Drive1Num, Drive2Num, Drive3Num) == FAIL) {
       printf("grid::AddRandomForcing: canot identify driving fields.\n");

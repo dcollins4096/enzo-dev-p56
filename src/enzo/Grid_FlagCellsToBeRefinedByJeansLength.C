@@ -51,6 +51,26 @@ int grid::FlagCellsToBeRefinedByJeansLength()
   int size = 1;
   for (dim = 0; dim < GridRank; dim++)
     size *= GridDimension[dim];
+  int DensNum, GENum, TENum, Vel1Num, Vel2Num, Vel3Num;
+  if (this->IdentifyPhysicalQuantities(DensNum, GENum, Vel1Num, Vel2Num,
+                       Vel3Num, TENum) == FAIL) {
+    ENZO_FAIL("Error in IdentifyPhysicalQuantities.\n");
+  }
+  
+  FLOAT  JLSquared = double(4.0*3.14159*3.14159)/GravitationalConstant; //AK
+  JLSquared /= POW(RefineByJeansLengthSafetyFactor, 2);
+  FLOAT CellWidthSquared = CellWidth[0][0]*CellWidth[0][0];
+  for (i = 0; i < size; i++){
+    if (CellWidthSquared > JLSquared/BaryonField[DensNum][i])
+      FlaggingField[i]++; 
+    }
+  int NumberOfFlaggedCells = 0;
+  for (i = 0; i < size; i++) {
+    FlaggingField[i] = (FlaggingField[i] >= 1)? 1 : 0;
+    NumberOfFlaggedCells += FlaggingField[i];
+  }
+  return NumberOfFlaggedCells;
+#ifdef NO 
  
   /* Compute the temperature field. */
  
@@ -60,7 +80,6 @@ int grid::FlagCellsToBeRefinedByJeansLength()
     temperature[i] = 1;
   }
   if (ProblemType != 60 && ProblemType != 61 && (EOSType == 0)) { //AK
-
     if (JeansRefinementColdTemperature > 0.0) {
       for (i = 0; i < size; i++)
 	temperature[i] = JeansRefinementColdTemperature;
@@ -74,11 +93,6 @@ int grid::FlagCellsToBeRefinedByJeansLength()
  
   /* Find fields: density, total energy, velocity1-3. */
  
-  int DensNum, GENum, TENum, Vel1Num, Vel2Num, Vel3Num;
-  if (this->IdentifyPhysicalQuantities(DensNum, GENum, Vel1Num, Vel2Num,
-                       Vel3Num, TENum) == FAIL) {
-    ENZO_FAIL("Error in IdentifyPhysicalQuantities.\n");
-  }
  
   /* Get density units. */
  
@@ -96,6 +110,19 @@ int grid::FlagCellsToBeRefinedByJeansLength()
   FLOAT JLSquared = (double(Gamma*pi*kboltz/GravConst)/
              (double(DensityUnits)*double(Mu)*double(mh))) /
                 (double(LengthUnits)*double(LengthUnits));
+    JLSquared = double(4.0*3.14159*3.14159)/GravitationalConstant; //AK
+  FLOAT CellWidthSquared = CellWidth[0][0]*CellWidth[0][0];
+  for (i = 0; i < size; i++)
+    {
+      if (EOSType == 0) {
+    if (CellWidthSquared > JLSquared*temperature[i]/BaryonField[DensNum][i]){
+      FlaggingField[i]++; 
+    }
+      }
+      else // isothermal and ploytropic sound speed version
+    if (CellWidthSquared > JLSquared/BaryonField[DensNum][i])
+      FlaggingField[i]++; 
+    }
  
   if (ProblemType == 60 || ProblemType == 61)
     JLSquared = double(4.0*3.14159*3.14159)/GravitationalConstant; //AK
@@ -153,7 +180,7 @@ int grid::FlagCellsToBeRefinedByJeansLength()
     FlaggingField[i] = (FlaggingField[i] >= 1)? 1 : 0;
     NumberOfFlaggedCells += FlaggingField[i];
   }
+#endif
  
-  return NumberOfFlaggedCells;
  
 }

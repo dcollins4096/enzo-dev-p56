@@ -129,7 +129,7 @@ int DrivenFlowInitialize(FILE *fptr, FILE *Outfptr,
       return FALSE;
   }
 
-  if ((HydroMethod != MHD_RK) && (HydroMethod != HD_RK) && (HydroMethod != MHD_Li)) {
+  if ((HydroMethod != MHD_RK) && (HydroMethod != HD_RK) && (HydroMethod != MHD_Li) && (HydroMethod != PPM_DirectEuler)) {
       fprintf(stderr,"DrivenFlowInitialize: Only support for MUSCL framework and MHDCT at this point.\n");
       return FALSE;
   }
